@@ -1,0 +1,13 @@
+replicaCount: 2
+
+image:
+  repository: ospeco/mi-app
+  tag: "initial"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
+
+containerPort: 3000

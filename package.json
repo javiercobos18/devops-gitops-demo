@@ -1,0 +1,10 @@
+{
+  "name": "mi-app",
+  "version": "1.0.0",
+  "description": "Aplicacion de ejemplo para una prueba tecnica DevOps",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --check src/app.js"
+  }
+}
