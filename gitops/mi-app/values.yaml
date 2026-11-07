@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: ospeco/mi-app
-  tag: "c72f1103e8cb9e07a917725092a73f7d0ea66ba5"
+  tag: "161332f2693519106a147f29483ce1f0f35fd194"
   pullPolicy: IfNotPresent
 
 service:
